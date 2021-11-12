@@ -33,10 +33,15 @@ public class Latinator {
 	public String output(){
 		StringBuilder output = new StringBuilder();
 		for (int i = 0; i < translatedInput.length; i++) {
-			String temp = translatedInput[i] + " ";
-
-
+		String temp;
+			if (i==translatedInput.length-1 &&translatedInput.length>1){ //if it is the end of the array and the array has multiple words (therefore is a sentence)
+				temp = translatedInput[i]+'.';
+			}else{
+				temp = translatedInput[i] + " ";
+			}
+			output.append(temp);
 		}
+		return output.toString();
 	}
 	//three separate cases for the three different ways you have to translate a word into pig latin aptly named case1 case2 and case3 I don't know why i whent for the structure
 	// with all of these helper methods, but I decided that this would be the best way to go about doing this, deal with it.

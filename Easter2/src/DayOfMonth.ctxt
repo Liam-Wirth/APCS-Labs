@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.target=DayOfMonth
-comment1.params=day2\ month2
-comment1.target=DayOfMonth(int,\ int)
-numComments=2

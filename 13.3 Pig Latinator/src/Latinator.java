@@ -30,7 +30,7 @@ public class Latinator {
 		}
 
 	}
-	public String output(){
+	public String output(){ // this method takes my array that I built in the translate method, and then pushes it to an output that i can call from my tester
 		StringBuilder output = new StringBuilder();
 		for (int i = 0; i < translatedInput.length; i++) {
 		String temp;
@@ -84,7 +84,7 @@ public class Latinator {
 						Temp.setStartsWithVowel(true);     //Modifying my Word datatype to have the HasStartingvalue conditional set to true.
 
 					}
-					if (vowelcount == 1) { /// TODO: 11/11/2021 I need to remember how if and if else works when i get home and get an internet connection again. I forgor if  an else if will still run after the first if statement ran. If not I'll need to swap their order.
+					if (vowelcount == 1) { 
 						Temp.setFirstVowel(cwChar);
 						Temp.setStart(cwBuild.toString());  //storing the current instance of the stringbuilder as the start of the word
 						//this is because the parameters for the start of the word are the entirety of the word leading up to it's first vowell

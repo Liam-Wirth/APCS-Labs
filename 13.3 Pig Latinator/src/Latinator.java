@@ -16,13 +16,43 @@ public class Latinator {
 		String currentWord;
 		for (int i = 0; i < formattedInput.length; i++) {
 			currentWord = formattedInput[i];
-			wordChecker(currentWord);
-
+			Word temp =	wordChecker(currentWord); //throwing the currentword into my word checker loop, and initializing that as a datatype "Word" called temp
+			if (!temp.isHasVowel()){
+				translatedInput[i]=translateCase1(currentWord);
+			}else if(temp.isHasVowel()&& !temp.isStartsWithVowel()){
+				translatedInput[i]=translateCase2(currentWord, temp.getStart(), temp.getEnd());
+			}else{
+				translatedInput[i] = translateCase3(currentWord);
+			}
 
 
 
 		}
 
+	}
+	public String output(){
+		StringBuilder output = new StringBuilder();
+		for (int i = 0; i < translatedInput.length; i++) {
+			String temp = translatedInput[i] + " ";
+
+
+		}
+	}
+	//three separate cases for the three different ways you have to translate a word into pig latin aptly named case1 case2 and case3 I don't know why i whent for the structure
+	// with all of these helper methods, but I decided that this would be the best way to go about doing this, deal with it.
+	private String translateCase1(String Word){ //this one will be for if the word has no vowels
+		String temp = Word;
+		temp += "ay";
+		return temp;
+	}
+	private String translateCase2(String Word, String Start, String End){ //this will be for when the word has a vowel
+		String temp = Word;
+
+		return temp;
+	}
+	private String translateCase3(String Word){ //this is for when the word starts with a vowel
+		String temp = null;
+		return temp;
 	}
 	private Word wordChecker(String Word) {
 		//cw is just current word, so anything that starts with cw is reffering to the current word I am working on, I'm shooting for the EC rn just cause.

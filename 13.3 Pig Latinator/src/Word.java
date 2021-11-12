@@ -5,6 +5,7 @@ public class Word {
 	private boolean startsWithVowel;
 	private char firstVowel;
 	private boolean isFirstvowell;
+	private boolean isFirstWord;
 
 
 	public Word(String start, String end, boolean hasVowel, boolean startsWithVowel) {
@@ -63,5 +64,13 @@ public class Word {
 
 	public void setFirstvowell(boolean firstvowell) {
 		isFirstvowell = firstvowell;
+	}
+
+	public boolean isFirstWord() {
+		return isFirstWord;
+	}
+
+	public void setFirstWord(boolean firstWord) {
+		isFirstWord = firstWord;
 	}
 }

@@ -1,51 +1,92 @@
+import java.util.ArrayList;
+import java.util.Locale;
 
 
-public class Latinator {
-	private String rawInput; //this string is just going to hold the raw user input, I don't think it's really necessary to have this saved in this class, but maybe it will be
-							// useful later down the line idunno
-	private String[] formattedInput;  //taking advantage of string.split method cause it's cool, but regex is hard to understand :/
-	private String[] translatedInput;
-	private boolean isFirstVowell;
+public class Latinator2 { //this is just a take two of my first attempt cause my first attempt literally just doesn't work
+		private String input;
+		private String[] inputSplit;
+		private ArrayList<String> translated = new ArrayList<String>();
+		private boolean inputhaspunctuation = false;
+		private punctuation punctuation = new punctuation();
 
-	public Latinator(String rawInput){
-		this.rawInput = rawInput;
-	}
-	public void Translate(){
-		this.formattedInput = rawInput.split(" "); //this is a stringsplitter, I just learned about it but it should split everything to an array, that I can THEN use to write
-		// my code lol.
-		for (int i = 0; i < formattedInput.length; i++) {
-		String currentWord = formattedInput[i];
-		Word temp = wordChecker(currentWord);
-			if (!temp.isHasVowel()) translatedInput[i] = translateCase1(temp.getCurrentWord());
-			else if(temp.isHasVowel()&& !temp.isStartsWithVowel()){
-				translatedInput[i]=translateCase2(temp.getCurrentWord(), temp.getStart(), temp.getEnd());
-			} else{
-				translatedInput[i] = translateCase3(temp.getCurrentWord());
+
+		public Latinator2(String input){
+			int puncCounter = 0;
+			char puncSymbol = 0;
+			int puncIndex = 0;
+			this.input = input;
+			inputSplit = input.split(" ");
+			for (int i = 0; i < inputSplit.length; i++) {
+				String tempWord = inputSplit[i];
+				for (int j = 0; j < tempWord.length(); j++) {
+					char tempWordCH = tempWord.charAt(j);
+					switch(tempWordCH){
+						case '.':
+						case '!':
+						case '?':
+							System.out.println("penis");
+							inputhaspunctuation = true;
+							puncSymbol = tempWord.charAt(tempWord.length()-1);
+							puncIndex  = i;
+					}
+
+				}
+				if(tempWord.matches("\\W")){
+					inputhaspunctuation = true;
+					 puncSymbol = tempWord.charAt(tempWord.length()-1);
+					 puncIndex  = i;
+
+				}
+				}
+			if (inputhaspunctuation){
+				punctuation.setIndex(puncIndex);
+				punctuation.setSymbol(puncSymbol);
 			}
+			inputSplit = input.split("\\W");
 		}
+		public void Translate(){
+			for (int i = 0; i < inputSplit.length; i++) {
+			Word currentWord = wordChecker(inputSplit[i]);
+				if (!currentWord.isHasVowel()) {
+					translated.add(translateCase1(currentWord.getCurrentWord()));
+				}	else if(currentWord.isHasVowel()&& !currentWord.isStartsWithVowel()){
+					translated.add(translateCase2(currentWord.getCurrentWord(), currentWord.getStart(), currentWord.getEnd()));
+				} else{
+					translated.add(translateCase3(currentWord.getCurrentWord()));
+				}
+			}
 
-	}
-	public String output(){ // this method takes my array that I built in the translate method, and then pushes it to an output that i can call from my tester
-		StringBuilder output = new StringBuilder();
-		for (int i = 0; i < translatedInput.length; i++) {
-		String temp = translatedInput[i]+ " ";
-			output.append(temp);
+
+			}
+
+
+		public String genOutput(){
+			StringBuilder output = new StringBuilder();
+
+			for (int i = 0; i < translated.size(); i++) {
+				String temp = translated.get(i) + " ";
+				if(i == 1){
+					Character.toUpperCase(temp.charAt(0));
+				}
+				if(inputhaspunctuation && i ==punctuation.getIndex()){
+					output.append(temp);
+					output.insert(output.length()-1,punctuation.getSymbol());
+				}else output.append(temp);
+
+			}
+			return output.toString();
 		}
-		return output.toString();
-	}
-	//three separate cases for the three different ways you have to translate a word into pig latin aptly named case1 case2 and case3 I don't know why i whent for the structure
-	// with all of these helper methods, but I decided that this would be the best way to go about doing this, deal with it.
 	private String translateCase1(String Word){ //this one will be for if the word has no vowels
-		return Word + "ay";
+		return Word.toLowerCase() + "ay";
 	}
 	private String translateCase2(String Word, String Start, String End){ //this will be for when the word has a vowel
-		String sbTemp = End +
+		String sbTemp = End.toLowerCase() +
 				Start +
 				"ay";
 		return sbTemp;
 	}
 	private String translateCase3(String Word){ //this is for when the word starts with a vowel
-		String temp = Word;
+		String temp = Word.toLowerCase();
 		temp += "yay";
 		return temp;
 	}
@@ -59,9 +100,11 @@ public class Latinator {
 		char firstVowel = 0;
 		String start = null;
 		String end = null;
+		boolean ran = false;
+
 		//Word Temp = new Word(Word); // almost declared this word in my loop, meaning it would reset for every char lol
 		for (int j = 0; j < Word.length(); j++) { //my for loop, allowing this method to loop through the current word, and this method will be looping through
-			char cwChar = Word.charAt(j++);
+			char cwChar = Word.charAt(j);
 			switch (cwChar) {
 				case 'a':                                    //just learned that you can merge switch statement cases, thanks intellij
 				case 'e':                                    //just learned that you can merge switch statement cases, thanks intellij
@@ -78,34 +121,36 @@ public class Latinator {
 					if (cwBuild.length() == 0) {        //another conditional to check and see if the word starts with a vowell
 						startsWithVowel=true;     //Modifying my Word datatype to have the HasStartingvalue conditional set to true.
 
-					}
-					if (vowelcount == 1) {
+					}else if (vowelcount == 1) {
+						 ran = true;
 						firstVowel = cwChar;
-						start=cwBuild.toString();  //storing the current instance of the stringbuilder as the start of the word
+						start = cwBuild.toString();  //storing the current instance of the stringbuilder as the start of the word
+						cwBuild = new StringBuilder();
+						cwBuild.append(cwChar);
 						//this is because the parameters for the start of the word are the entirety of the word leading up to it's first vowell
-						cwBuild = new StringBuilder();      //resetting the string builder so that I can then use i
+					     //resetting the string builder so that I can then use i
 						// t to set the end of of the string when I am outside of the loop.
 						wascwBuildReset = true;
 
+
+					}else{
+						cwBuild.append(cwChar);
+
 					}
 					break;
-			} //bottom of the switch statement. (I think I should write these small little comments in because these statements are pretty big.)
-			cwBuild.append(cwChar);
+				default:
+					cwBuild.append(cwChar);
+
+			}//bottom of the switch statement. (I think I should write these small little comments in because these statements are pretty big.)
 		} //bottom of the for loop
+
 		if (wascwBuildReset) {
-			 end = cwBuild.toString();
+			end+= firstVowel;
+			end = cwBuild.toString();
 		}
 		return new Word(start, end, hasVowel, startsWithVowel, firstVowel, Word);//The return statement of this function is my own custom Word datatype. this will allow me to have
 
 	}
 
 
-
-
-
-
-
-
 }
-
-

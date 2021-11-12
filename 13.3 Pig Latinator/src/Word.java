@@ -1,18 +1,24 @@
 public class Word {
 	private String start;
 	private String end;
+	private String currentWord;
 	private boolean hasVowel;
 	private boolean startsWithVowel;
 	private char firstVowel;
 	private boolean isFirstvowell;
 	private boolean isFirstWord;
 
+	public Word(String inputWord){
+		inputWord = this.currentWord;
+	}
 
-	public Word(String start, String end, boolean hasVowel, boolean startsWithVowel) {
+	public Word(String start, String end, boolean hasVowel, boolean startsWithVowel, char FirstVowel, String currentWord) {
 		this.start = start;
 		this.end = end;
 		this.hasVowel = hasVowel;
 		this.startsWithVowel = startsWithVowel;
+		this.firstVowel = FirstVowel;
+		this.currentWord = currentWord;
 	}
 	public Word(){
 
@@ -72,5 +78,8 @@ public class Word {
 
 	public void setFirstWord(boolean firstWord) {
 		isFirstWord = firstWord;
+	}
+	public String getCurrentWord(){
+		return currentWord;
 	}
 }

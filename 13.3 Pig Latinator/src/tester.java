@@ -7,8 +7,9 @@ public class tester {
 		System.out.println("Alrighty, please give me a phrase!");
 		Scanner input = new Scanner(System.in);
 		String usrIn = input.nextLine();
-		Latinator Latinator = new Latinator(usrIn);
-		Latinator
+		Latinator2 Latinator = new Latinator2(usrIn);
+		Latinator.Translate();
+		System.out.println(Latinator.genOutput());
 
 	}
 }

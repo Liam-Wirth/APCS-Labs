@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="apcslib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ICT Jar Files/apcslib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ICT Jar Files/chnutil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

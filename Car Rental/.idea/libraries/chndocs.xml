@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="chndocs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ICT Jar Files/chndocs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ICT Jar Files/chnutil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

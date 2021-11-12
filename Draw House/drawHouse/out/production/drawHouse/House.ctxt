@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=House
+comment1.params=
+comment1.target=void\ drawSky()
+comment2.params=
+comment2.target=void\ drawGround()
+comment3.params=scale
+comment3.target=void\ drawSquare(int)
+comment4.params=scale
+comment4.target=void\ drawRoof(int)
+comment5.params=
+comment5.target=void\ drawDoor()
+comment6.params=
+comment6.target=void\ drawSun()
+comment7.params=min\ max
+comment7.target=int\ getRandomNumberInRange(int,\ int)
+comment8.params=depth\ branches
+comment8.target=void\ buildTrees(int,\ int)
+comment9.params=quantity\ depth\ branches
+comment9.target=void\ placeTrees(int,\ int,\ int)
+numComments=10

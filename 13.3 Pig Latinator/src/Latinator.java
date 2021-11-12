@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Latinator {
 	private String rawInput; //this string is just going to hold the raw user input, I don't think it's really necessary to have this saved in this class, but maybe it will be
 							// useful later down the line idunno
@@ -51,8 +53,12 @@ public class Latinator {
 		return temp;
 	}
 	private String translateCase2(String Word, String Start, String End){ //this will be for when the word has a vowel
-		String temp = Word;
-
+		String temp = Word.toLowerCase(Locale.ROOT);
+		StringBuilder sbTemp = new StringBuilder();
+		sbTemp.append(End);
+		sbTemp.append(Start);
+		sbTemp.append("ay");
+		temp = sbTemp.toString();
 		return temp;
 	}
 	private String translateCase3(String Word){ //this is for when the word starts with a vowel

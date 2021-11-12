@@ -56,7 +56,8 @@ public class Latinator {
 		return temp;
 	}
 	private String translateCase3(String Word){ //this is for when the word starts with a vowel
-		String temp = null;
+		String temp = Word;
+		temp += "yay";
 		return temp;
 	}
 	private Word wordChecker(String Word) {
@@ -84,7 +85,7 @@ public class Latinator {
 						Temp.setStartsWithVowel(true);     //Modifying my Word datatype to have the HasStartingvalue conditional set to true.
 
 					}
-					if (vowelcount == 1) { 
+					if (vowelcount == 1) {
 						Temp.setFirstVowel(cwChar);
 						Temp.setStart(cwBuild.toString());  //storing the current instance of the stringbuilder as the start of the word
 						//this is because the parameters for the start of the word are the entirety of the word leading up to it's first vowell

@@ -1,5 +1,7 @@
 
-
+//this is now a defunct class because my code didn't work. I wrote all this code while I was chilling at a phil's barbeque and I didn't test it while I wrote it. I literally was
+// just like "aight I'm finna write this whole shit in one go and hope it runs" and then did. The only preparation I had was writing the control structure on phil's barbeque
+// napkin.
 public class Latinator {
 	private String rawInput; //this string is just going to hold the raw user input, I don't think it's really necessary to have this saved in this class, but maybe it will be
 							// useful later down the line idunno

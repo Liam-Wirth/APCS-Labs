@@ -1,4 +1,4 @@
-public class Word {
+public class Word { //word datatype, only really used once when I am translating the code.
 	private String start;
 	private String end;
 	private String currentWord;

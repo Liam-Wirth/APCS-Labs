@@ -1,10 +1,11 @@
+// I forget, do I even use this class?
 public class punctuation {
 	private char symbol;
 	private int index;
 
 
 
-	public punctuation(char symbol, int index) {
+	public punctuation(char symbol, int index) { //constructor method
 		this.symbol = symbol;
 		this.index = index;
 	}

@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Locale;
+//this is a rewritten version of my lazy phil's barbeque code, this time it actually works. apparently the only reason that my phil's code didn't work was because my stupid ass
+// used an array instead of an arraylist when writing my output lol.
 
 
 public class Latinator2 { //this is just a take two of my first attempt cause my first attempt literally just doesn't work

@@ -13,14 +13,14 @@ public class tester {
 			Latinator.Translate();
 			System.out.println(Latinator.genOutput());
 			System.out.println("Would you like to continue? (Y/N)");
-		 if(input.nextLine().toLowerCase()=="n"){
-				 Continue = false;
+		    char answer = input.nextLine().charAt(0);
 
-			}else if(input.nextLine().toLowerCase() != "y" && input.nextLine().toLowerCase() != "n"){
-				throw new Exception("That is not a valid answer");
-
-			}
+		    if (Character.toLowerCase(answer) == 'n'){
+		    	Continue = false;
+		    }
+		 }
 		}
 
 	}
-}
+
+

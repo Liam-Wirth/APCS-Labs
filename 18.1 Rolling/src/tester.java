@@ -1,3 +1,5 @@
+//super short bit of code do I have to include a code signature here or can I just move on? I'd like to do the later
+
 import java.util.Random;
 
 public class tester{

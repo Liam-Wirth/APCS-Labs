@@ -42,8 +42,30 @@ private long sumOfSquareOfDifference;
     public double squareAverage() {
         return (double)(sumOfSquareOfDifference/(nums.size()));
         }
+    public short mode(){
+
+        short frequency = 0;
+        short mode = 0;
+        byte currentNum = 0; //this is the current number that I am counting for
+       while(currentNum<100){
+            byte count = 0; //this counter is to count the frequency of any number in the list
+            for (int j = 0; j < nums.size(); j++) {
+                if (nums.get(j) == nums.get(currentNum)){
+                    count++;
+                }
+                if (count>frequency){
+                    frequency = count;
+                    mode = nums.get(j);
+
+                }
+
+            }
+            currentNum++;
+        }
+        return mode;
+    }
+
     public double sqrtSquareAverage(){
         return Math.sqrt(squareAverage());
     }
-
 }

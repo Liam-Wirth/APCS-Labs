@@ -1,0 +1,253 @@
+Index: GridWorld/GridWorld part 1/.idea/GridWorld part 1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/GridWorld part 1.iml b/GridWorld/GridWorld part 1/.idea/GridWorld part 1.iml
+deleted file mode 100644
+--- a/GridWorld/GridWorld part 1/.idea/GridWorld part 1.iml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ /dev/null	(revision 48c7bd223307188013912e95effa18764bda2a3e)
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" name="apcslib" level="application" />
+-    <orderEntry type="library" name="gridworld" level="project" />
+-    <orderEntry type="library" name="gridworld1" level="project" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/.idea/libraries/gridworld1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/libraries/gridworld1.xml b/GridWorld/GridWorld part 1/.idea/libraries/gridworld1.xml
+deleted file mode 100644
+--- a/GridWorld/GridWorld part 1/.idea/libraries/gridworld1.xml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ /dev/null	(revision 48c7bd223307188013912e95effa18764bda2a3e)
+@@ -1,10 +0,0 @@
+-<component name="libraryTable">
+-  <library name="gridworld1">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../../../libs/gridworld/gridworld.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-    <jarDirectory url="jar://$PROJECT_DIR$/../../../libs/gridworld/gridworld.jar!/" recursive="false" />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/.idea/libraries/gridworld.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/libraries/gridworld.xml b/GridWorld/GridWorld part 1/.idea/libraries/gridworld.xml
+deleted file mode 100644
+--- a/GridWorld/GridWorld part 1/.idea/libraries/gridworld.xml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ /dev/null	(revision 48c7bd223307188013912e95effa18764bda2a3e)
+@@ -1,9 +0,0 @@
+-<component name="libraryTable">
+-  <library name="gridworld">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../../../libs/gridworld" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/misc.xml b/GridWorld/GridWorld part 1/.idea/misc.xml
+deleted file mode 100644
+--- a/GridWorld/GridWorld part 1/.idea/misc.xml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ /dev/null	(revision 48c7bd223307188013912e95effa18764bda2a3e)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/src/tester.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/src/tester.java b/GridWorld/GridWorld part 1/src/tester.java
+deleted file mode 100644
+--- a/GridWorld/GridWorld part 1/src/tester.java	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ /dev/null	(revision 48c7bd223307188013912e95effa18764bda2a3e)
+@@ -1,37 +0,0 @@
+-import gridworld.*;
+-public class tester {
+-
+-    //the theme that I like is trash panda. goes hella hard
+-    //anyways i spent the whole period configing my
+-    // linux install and not doing gridworld 😎
+-    // linux install is done, now I am doing gridworld (like a boss)
+-    public static void main(String[] args){ //main class loololololo
+-
+-    }
+-
+-
+-}
+-/*
+-⠀⠀⠀⠀⠀       ⣠⣶⠟⠛⠛⠛⠛⠛⣛⣻⣿⣿⣿⣿⣿⣟⣛⣛⣛⠛⠒⠲⠶⠦⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠏⠁⠀⠀⢀⣤⠶⣛⣩⣥⠤⠤⠤⠤⢤⣤⣤⣭⣭⣉⣉⣛⣛⣻⣭⣥⠬⡍⠛⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠃⠀⠀⣠⡶⢋⡵⢛⡩⠵⠒⠒⠒⠒⠢⡀⠀⠀⠀⠀⠀⢀⣠⠤⠤⠤⢤⣄⠀⠀⠀⠉⠻⣆⠀⠀⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⢀⣿⠃⠀⠀⠘⢁⡴⢋⣴⢿⠒⠈⠉⣏⠉⠐⠒⡾⣄⠀⠀⠀⠀⠀⡠⠀⠀⢀⣀⣈⣙⣆⡀⠀⠀⢹⡆⠀⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⣠⣾⠃⠀⠀⠀⠀⠀⢀⠟⣁⠀⠁⢀⣤⣦⣤⡀⠘⠀⢈⣷⡄⠀⠀⠀⣇⠖⠉⠙⠅⠀⠀⠉⠉⠑⢦⡈⣷⡀⠀⠀⠀⠀
+-⠀⠀⠀⠀⢠⣾⢿⣧⠤⠤⠤⠄⠀⠖⣿⠀⠃⠀⠀⣿⣿⣿⣿⡗⠀⠐⠁⢸⡇⠀⣀⣰⠉⠠⠀⠀⣰⣶⣷⣶⠀⠀⠀⢱⡈⢻⣦⠀⠀⠀
+-⠀⠀⠀⣠⡿⣱⠋⢀⣴⠶⠚⠻⢶⣤⡘⢧⣄⠆⠂⠀⡉⠉⣉⣀⣀⠉⣠⡟⠁⠀⠉⢻⣆⠀⠀⠀⠘⠛⠟⠛⠀⠀⢈⡿⢍⢢⢹⡇⠀⠀
+-⠀⠀⢠⣿⠁⡇⢠⣿⠁⠀⢰⣦⡀⠉⠉⠀⠈⠙⠲⠾⠾⠶⠶⠶⠚⠋⠉⠀⠀⠀⠀⢸⣯⡑⠢⢤⣀⣂⣀⣨⠤⠒⠛⠃⠘⡆⡇⡧⠀⠀
+-⠀⠀⢸⣿⠀⡇⢸⡇⢠⣴⣾⠋⠛⢷⣦⣀⠀⠀⠀⠠⠤⠤⠴⢠⠶⠒⠀⠀⠀⠀⠀⠀⠉⢿⣦⡀⠀⠀⠀⠀⢸⣷⠀⠀⡼⢡⢣⡇⠀⠀
+-⠀⠀⠀⢿⡇⣧⠘⠿⠀⠀⠸⣧⡀⠀⠈⢻⡿⢶⣦⣄⡀⠀⠀⠸⣆⠐⠟⠻⠷⠀⠀⠀⢀⣾⠛⠃⠑⠤⠀⢀⣼⣿⡇⢀⠤⢂⣾⠃⠀⠀
+-⠀⠀⠀⠈⢻⣌⠑⠦⠀⠀⠀⢿⣿⣷⣤⣸⣷⡀⠀⠈⠙⠻⢿⣶⣤⣄⣀⡀⠀⠀⠙⠿⠟⠁⠀⠀⢀⣠⡴⣿⠉⣿⣿⠀⠀⣼⠁⠀⠀⠀
+-⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣶⣤⣀⣀⣼⠁⠀⠈⠉⠙⣿⠛⠛⠻⢿⠿⠛⠛⢻⡇⠀⢸⡀⣹⣿⠀⠀⡏⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠈⢿⡀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣤⣄⣀⣿⣄⣀⣀⣸⣄⣀⣠⣴⣿⣶⣿⣿⣿⣿⡇⠀⡇⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠈⢷⡄⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⡇⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣦⠀⠘⣿⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⣷⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣄⠘⢷⡀⠘⡟⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⣿⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣧⡀⠻⣾⡃⠀⠀⠈⠙⢿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⣿⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣄⠈⠻⣦⡀⠀⠀⡼⠀⠀⠈⠙⠻⣿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⢿⡿⣹⠇⠀⣿⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⣄⠈⠛⠷⣼⣇⡀⠀⠀⠀⠀⣿⠀⠀⠀⢸⡇⠀⠀⡿⠀⢸⠇⣘⣧⠟⠀⢀⡿⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢷⣄⡀⠀⠙⠻⠷⠶⣶⣾⣿⣤⣀⣠⣿⣄⣀⣴⠷⠶⠿⠿⠟⠋⠀⢀⣾⠃⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣶⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣤⡤⠞⠁⠀⠀⠀⠀⠀
+-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀
+- */
+Index: 19.2 Compact/.idea/workspace.xml
+===================================================================
+diff --git a/19.2 Compact/.idea/workspace.xml b/19.2 Compact/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	
++++ b/19.2 Compact/.idea/workspace.xml	
+@@ -0,0 +1,69 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="8335d243-bbeb-4551-bdf5-a80f1b05814b" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../19.1 Statistics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../19.1 Statistics/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="GitSEFilterConfiguration">
++    <file-type-list>
++      <filtered-out-file-type name="LOCAL_BRANCH" />
++      <filtered-out-file-type name="REMOTE_BRANCH" />
++      <filtered-out-file-type name="TAG" />
++      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
++    </file-type-list>
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="23h6vhcamOqqUIqNo4oztCHD9Wb" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="8335d243-bbeb-4551-bdf5-a80f1b05814b" name="Changes" comment="" />
++      <created>1642174207059</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1642174207059</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/vcs.xml b/.idea/vcs.xml
+rename from GridWorld/GridWorld part 1/.idea/vcs.xml
+rename to .idea/vcs.xml
+--- a/GridWorld/GridWorld part 1/.idea/vcs.xml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ b/.idea/vcs.xml	
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: GridWorld/GridWorld part 1/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GridWorld/GridWorld part 1/.idea/modules.xml b/.idea/modules.xml
+rename from GridWorld/GridWorld part 1/.idea/modules.xml
+rename to .idea/modules.xml
+--- a/GridWorld/GridWorld part 1/.idea/modules.xml	(revision 48c7bd223307188013912e95effa18764bda2a3e)
++++ b/.idea/modules.xml	
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/GridWorld part 1.iml" filepath="$PROJECT_DIR$/.idea/GridWorld part 1.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/Labs.iml" filepath="$PROJECT_DIR$/.idea/Labs.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/GridWorld/.idea/GridWorld.iml b/.idea/Labs.iml
+rename from GridWorld/.idea/GridWorld.iml
+rename to .idea/Labs.iml
+diff --git a/GridWorld/GridWorld part 1/.idea/.gitignore b/.idea/.gitignore
+rename from GridWorld/GridWorld part 1/.idea/.gitignore
+rename to .idea/.gitignore

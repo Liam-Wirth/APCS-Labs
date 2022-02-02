@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="gridworld">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../libs/gridworld" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

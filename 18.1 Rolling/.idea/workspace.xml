@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="488624d1-33c0-41d8-989f-bb0aa27a2e5a" name="Changes" comment="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'">
+      <change afterPath="$PROJECT_DIR$/../19.1 Statistics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19.1 Statistics/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19.1 Statistics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19.1 Statistics/19.1 Statistics.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23RTu7bLCkwQH2Bf33Ool50XD7B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../19.1 Statistics" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tester" />
+      <module name="18.1 Rolling" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="488624d1-33c0-41d8-989f-bb0aa27a2e5a" name="Changes" comment="" />
+      <created>1641696123486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641696123486</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'">
+      <created>1641701514790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641701514790</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'">
+      <created>1641704793244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641704793244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'">
+      <created>1641705044244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641705044244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'" />
+    <option name="LAST_COMMIT_MESSAGE" value="lkdsafj;lkasdfh;gkdsjahgd;sali jadf'" />
+  </component>
+</project>

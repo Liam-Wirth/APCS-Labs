@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="542dec53-cfb3-4606-9fee-52dc6b03dfcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/.idea/GridWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/GridWorld part 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/libraries/gridworld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/libraries/gridworld1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridWorldCode/GridWorld part 1/src/tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Actor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/ActorWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/BoxBug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Bug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Bug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Critter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Flower.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Flower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Rock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/actor/Rock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/AbstractGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/Grid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/UnboundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/UnboundedGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/AbstractDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/ColorEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/DefaultDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/DisplayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/FormLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/GUIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/GridPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/GridWorld.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/ImageDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/LocationEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/MenuMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/PseudoInfiniteViewport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrameResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/world/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Actor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/ActorWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/BoxBug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Bug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Bug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Critter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Critter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Flower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Flower.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Rock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/actor/Rock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/AbstractGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/BoundedGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/BoundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/UnboundedGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/grid/UnboundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/AbstractDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ColorEditor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ColorEditor$ColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ColorEditor$RandomColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ColorEditor$SolidColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ColorEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/DefaultDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/DisplayMap$DisplayIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/DisplayMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/FormLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GridPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GridPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GridWorld.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/GridWorldHelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ImageDisplay$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ImageDisplay$TintFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/ImageDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/LocationEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$ConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$GridConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$MCItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$MethodItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker$OccupantConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/MenuMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PropertySheet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PropertySheet$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PropertySheet$StringEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PropertySheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PseudoInfiniteViewport$Pannable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/PseudoInfiniteViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame$GUIExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/gui/WorldFrameResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld.zip/info/gridworld/world/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/.idea/gridworld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Actor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/ActorWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/BoxBug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Bug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Bug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Critter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Critter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Flower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Flower.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Rock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/actor/Rock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/AbstractGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/BoundedGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/BoundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/UnboundedGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/grid/UnboundedGrid.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/AbstractDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ColorEditor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ColorEditor$ColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ColorEditor$RandomColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ColorEditor$SolidColorIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ColorEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/DefaultDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/DisplayMap$DisplayIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/DisplayMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/FormLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GridPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GridPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GridWorld.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/GridWorldHelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ImageDisplay$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ImageDisplay$TintFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/ImageDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/LocationEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$ConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$GridConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$MCItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$MethodItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker$OccupantConstructorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/MenuMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PropertySheet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PropertySheet$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PropertySheet$StringEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PropertySheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PseudoInfiniteViewport$Pannable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/PseudoInfiniteViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame$GUIExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/gui/WorldFrameResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridworld/info/gridworld/world/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/Actor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/ActorWorld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/Bug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/Critter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/Flower.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/Rock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/actor/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/AbstractGrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/BoundedGrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/Grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/Location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/UnboundedGrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/grid/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/world/World.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/world/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/world/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/info/gridworld/world/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBug.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBugRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBugRunner.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/BoxBugRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/boxBug/bluej.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonCritter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonCritter.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonCritter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonCritter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonRunner.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabCritter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabCritter.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabCritter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabCritter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabRunner.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CritterRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CritterRunner.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CritterRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/bluej.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/firstProject/BugRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/firstProject/BugRunner.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/firstProject/BugRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/firstProject/bluej.pkg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24ZP8RiHjGbaXRVpm8nzn5iTIDO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GridWorldCode" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="542dec53-cfb3-4606-9fee-52dc6b03dfcc" name="Changes" comment="" />
+      <created>1643834976173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643834976173</updated>
+    </task>
+    <servers />
+  </component>
+</project>

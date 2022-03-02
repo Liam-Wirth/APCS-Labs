@@ -1,24 +1,38 @@
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.actor.Bug;
 import info.gridworld.grid.Grid;
+import info.gridworld.grid.BoundedGrid;
 import info.gridworld.grid.Location;
 import info.gridworld.actor.Actor;
+import java.awt.*;
 
-import java.awt.Color;
 public class jumperBug extends Bug {
-    public jumperBug(){
+    static ActorWorld world;
+    public jumperBug() {
 
     }
-    public void act(){
-        if(canMove()){
+    public static void main(String[] args)
+    {
+        world = new ActorWorld();
+        world.setGrid(new BoundedGrid<>(100,100));
+        jumperBug alice = new jumperBug();
+        alice.setColor(Color.ORANGE);
+        world.add(new Location(6, 6), alice);
+        world.show();
+    }
+
+
+    public void act() {
+        if (canMove()) {
             move();
-        }else
+            world.add(new jumperBug());
+        } else
             turn();
 
 
     }
-    public void move()
-    {
+
+    public void move() {
         Grid gr = getGrid();
         if (gr == null)
             return;
@@ -26,11 +40,12 @@ public class jumperBug extends Bug {
         Location next = loc.getAdjacentLocation(getDirection()).getAdjacentLocation(getDirection());
         if (gr.isValid(next))
             moveTo(next);
+
         else
-            removeSelfFromGrid();
+        removeSelfFromGrid();
     }
-    public boolean canMove()
-    {
+
+    public boolean canMove() {
         Grid gr = getGrid();
         if (gr == null)
             return false;
@@ -38,16 +53,8 @@ public class jumperBug extends Bug {
         Location next = loc.getAdjacentLocation(getDirection()).getAdjacentLocation(getDirection());
         if (!gr.isValid(next))
             return false;
-        Actor neighbor = (Actor)gr.get(next);
+        Actor neighbor = (Actor) gr.get(next);
         return (neighbor == null);
-    }
-    public static void main(String[] args)
-    {
-        ActorWorld world = new ActorWorld();
-        jumperBug alice = new jumperBug();
-        alice.setColor(Color.ORANGE);
-        world.add(new Location(6, 6), alice);
-        world.show();
     }
 }
 

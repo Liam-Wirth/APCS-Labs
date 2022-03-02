@@ -19,7 +19,7 @@
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.grid.Location;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * This class runs a world that contains box bugs. <br />
@@ -30,11 +30,11 @@ import java.awt.Color;
 //THIS CLASS RUNS CIRCLE BUG AND SPIRAL BUG
 public class BoxBugRunner
 {
-    public static void main(String[] args)
+    public static void main( String[] args)
     {
         ActorWorld world = new ActorWorld();
         circleBug alice = new circleBug(6);
-        world.add(new Location(7, 8), alice);
+        //world.add(new Location(7, 8), alice);
         SpiralBug bob = new SpiralBug(2);
         world.add(new Location(5, 5), bob);
         world.show();

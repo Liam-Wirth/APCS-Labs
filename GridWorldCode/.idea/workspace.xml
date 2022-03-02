@@ -366,6 +366,8 @@
       <change afterPath="$PROJECT_DIR$/../TypeCasting/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/BoxBugProjects/BoxBugRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BoxBugProjects/BoxBugRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/BoxBugProjects/CircleBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/BoxBugProjects/circleBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/ChameleonCritter.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/critters/ChameleonCritter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/critters/CrabRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/critters/CrabRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/firstProject/circleBug.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,15 +417,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gridworld/info/gridworld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.1 DrawHouse" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.jumperBug">
-    <configuration name="BoxBug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoxBug" />
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.CrabRunner">
+    <configuration name="BoxBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxBugRunner" />
+      <module name="projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrabRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrabRunner" />
       <module name="projects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -450,20 +462,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quickCrab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quickCrab" />
-      <module name="projects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrabRunner" />
         <item itemvalue="Application.jumperBug" />
-        <item itemvalue="Application.BoxBug" />
-        <item itemvalue="Application.ZBug" />
-        <item itemvalue="Application.quickCrab" />
+        <item itemvalue="Application.BoxBugRunner" />
         <item itemvalue="Application.circleBug" />
+        <item itemvalue="Application.ZBug" />
       </list>
     </recent_temporary>
   </component>
@@ -512,8 +517,23 @@
     <MESSAGE value="fixing directories and references ignore errorors. it's your fault" />
     <option name="LAST_COMMIT_MESSAGE" value="fixing directories and references ignore errorors. it's your fault" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/critters/CrabRunner.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GridWorldCode$jumperBug.ic" NAME="jumperBug Coverage Results" MODIFIED="1644380052387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GridWorldCode$quickCrab.ic" NAME="quickCrab Coverage Results" MODIFIED="1644379741779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

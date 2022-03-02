@@ -53,10 +53,10 @@ public class circleBug extends Bug
         }
     }//THIS CLASS RUNS CIRCLE BUG AND SPIRAL BUG
 
-        public static void main(String[] args)
+        public static void main( String[] args)
         {
             ActorWorld world = new ActorWorld();
-            circleBug alice = new circleBug(3);
+            circleBug alice = new circleBug(2);
             world.add(new Location(5, 5), alice);
             world.show();
         }

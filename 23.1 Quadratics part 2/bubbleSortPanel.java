@@ -2,12 +2,13 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class bubbleSortPanel extends SortingPanel {
-    private static final long serialVersionUID = 1L;
     private int redColumn = -1;
     private int greenColumn = -1;
+    protected int size;
 
-    public bubbleSortPanel(String name, int sleepTime, int width, int height) {
+    public bubbleSortPanel(String name, int sleepTime, int width, int height, int size) {
         super(name, sleepTime * 4, width, height);
+        this.size=size;
     }
 
     @Override
@@ -42,6 +43,7 @@ public class bubbleSortPanel extends SortingPanel {
                         //steps += 3;    // swap of list[inner] & list[inner + 1]
                     }
                 }
+                size =
                 greenColumn = size - outer;
             }
             greenColumn = 0;

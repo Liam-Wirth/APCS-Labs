@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="chnutil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../libs/chnutil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

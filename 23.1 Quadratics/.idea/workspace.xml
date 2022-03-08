@@ -4,74 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84dd44e1-d1d2-4636-b8ac-d6d3e7d39f75" name="Changes" comment="uihihuph">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bubbleSortPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/Ant Farm Assignment r2.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/Cake.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/Cookie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/Food.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/Processable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/QueenAnt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/WorkerAnt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/resources/inherit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Javadocs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarm.jcd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarm.jcp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarm.jcu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarm.jcw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarmRunner.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/AntFarmRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cake.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cake.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cookie.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cookie.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Cookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Food.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Processable.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Processable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/QueenAnt.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/QueenAnt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/QueenAnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/WorkerAnt.ctxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/WorkerAnt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/WorkerAnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/package.bluej" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/GWAntfarm/GWAntFarm r2/AntFarm Student/src_antfarm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridWorldCode/nightTab backup - 2022.02.15 - 13 53 45.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grdworld old/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23.1 Quadratics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/23.1 Quadratics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/libraries/apcslib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/libraries/chnutil.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/23.1 Quadratics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/SortStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics/Sorts.class" beforeDir="false" />
+    <list default="true" id="84dd44e1-d1d2-4636-b8ac-d6d3e7d39f75" name="Changes" comment="bashing head into keyboard">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +39,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -114,17 +49,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../23.1 Quadratics part 2" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\APCS\Labs\23.1 Quadratics" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SortStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortStep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortStep" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,6 +83,21 @@
       <option name="presentableId" value="Default" />
       <updated>1646164235524</updated>
     </task>
+    <task id="LOCAL-00001" summary="uihihuph">
+      <created>1646713674802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646713674802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bashing head into keyboard">
+      <created>1646713710507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646713710507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="uihihuph" />
-    <option name="LAST_COMMIT_MESSAGE" value="uihihuph" />
+    <MESSAGE value="bashing head into keyboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="bashing head into keyboard" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

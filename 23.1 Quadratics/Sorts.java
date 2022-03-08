@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 /**
  *  Description of the Class
  *
@@ -25,8 +26,7 @@ public class Sorts
    *
    * @param  list  reference to an array of integers to be sorted
    */
-  public void bubbleSort (int[] list)
-  {
+  public void bubbleSort (int[] list) {
       steps++;     // initialization of outer
       for (int outer = 0; outer < list.length - 1; outer++)
       {
@@ -162,7 +162,58 @@ public class Sorts
     System.out.println("Quicksort");
     System.out.println();
   }
+  public void bogoSort(int [] list, int first, int last) throws InterruptedException {
+      Random arrayShuffle = new Random();
+      int out[] = new int[list.length];
+      while (!isSorted(list)) {
+          //below loop will randomize the array and then see if it's sorted
+          for (int i = 0; i < list.length; i++) {
+              steps += 3;
+              //no
+              int newLoc = arrayShuffle.nextInt(list.length - 1);
+              int currentNum = list[i];
+              steps += 2;
+              list[i] = list[newLoc];
+              list[newLoc] = currentNum;
+              steps += 2;
+              //funny loop to print out put of the sort to the console
+              for (int j = 0; j < list.length - 1; j++) {
+                  for (int k = 0; k < list[j]; k++) {
+                      System.out.print("▇");
+                  }
+                  System.out.print("\r\n");
+              }
+              try {
+                  Thread.sleep(1000);
+              } catch (InterruptedException e) {
+                  e.printStackTrace();
+              }
 
+              for (int l = 0; l < 999; l++) {
+                  System.out.println();
+              }
+              System.out.println();
+
+          }
+
+
+      }
+      steps++;
+  }
+    public static void clearScreen() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
+
+
+
+    private boolean isSorted(int[] list)
+    {
+        for (int i = 1; i < list.length; i++)
+            if (list[i] < list[i - 1])
+                return false;
+        return true;
+    }
   /**
    *  Accessor method to return the current value of steps
    *
@@ -182,9 +233,39 @@ public class Sorts
   {
     steps = stepCount;
   }
+  public static void viSort(int[] list){
+    //funny loop to print out put of the sort to the console
+    for (int j = 0; j < list.length-1; j++) {
+        for (int k = 0; k < list[j]; k++) {
+            System.out.print("▇");
+        }
+        System.out.print("\r\n");
+    }
+    try {
+        Thread.sleep(1000);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+
+    for (int l = 0; l < 500; l++) {
+        System.out.println();
+    }
+    System.out.println();
+
+}
+
+
 }
 /* TODO: Just typing this tokeep track of what I have done alreadu:
 *  */
+//TODO make a visual sort method that is part of this class and is publicly accessible, and then implement
+// it for all of the sorting algorithms, I'm pretty sure I'd have to implement it here in this class because
+// it updates with the algorithm at runtime
+//TODO learn either javax.swing (JFrames) or figure out Ncurses on linux install to be able to make sense of Jcurses
+//TODO Implement vSort as a TUI type application? (using JCurses or smthn)
+//TODO Merge method + Merge Sort
+//TODO smartBogo sort
+
 
 
 

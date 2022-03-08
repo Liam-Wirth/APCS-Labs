@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="TOP_CENTER" blendMode="MULTIPLY" prefHeight="50.0" prefWidth="600.0" text="Liam's Sorting Algorithm Visualizer">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="14.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="133.0" text="Sorting Algorithm">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Bubble Sort" />
+            <MenuItem disable="true" mnemonicParsing="false" text="Bogo Sort" />
+            <MenuItem disable="true" mnemonicParsing="false" text="Insertion Sort" />
+            <MenuItem text="Selection Sort " />
+         </items>
+      </MenuButton>
+      <ChoiceBox layoutX="148.0" layoutY="187.0" mouseTransparent="true" onMouseClicked="#g" prefWidth="150.0" />
+   </children>
+</AnchorPane>

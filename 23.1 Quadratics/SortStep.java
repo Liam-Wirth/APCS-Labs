@@ -2,6 +2,7 @@ import chn.util.*;
 import apcslib.Format;
 import java.util.*;
 
+
 /**
  *  Driver program for the Sorts class.
  *
@@ -29,8 +30,7 @@ public class SortStep
    *  the sorting algorithm, and gives an option of printing out the
    *  data after it has been sorted.
    */
-  public void sortMenu()
-  {
+  public void sortMenu() throws InterruptedException {
     String choice;
     String print;
 
@@ -44,11 +44,12 @@ public class SortStep
       System.out.println("(3) Insertion sort");
       System.out.println("(4) Recursive mergesort");
       System.out.println("(5) Quicksort");
+      System.out.println("(6) BogoSort");
       System.out.println("(Q) Quit");
       System.out.println();
       System.out.print("Choice ---> ");
       choice = console.readLine() + " ";
-      if ('1' <= choice.charAt(0) && choice.charAt(0) <= '5')
+      if ('1' <= choice.charAt(0) && choice.charAt(0) <= '6')
       {
         System.out.println();
         System.out.print("How many numbers do you wish to generate? ");
@@ -76,6 +77,8 @@ public class SortStep
             case '5':
               mySorts.quickSort(myArray, 0, myArray.length - 1);
               break;
+            case '6':
+              mySorts.bogoSort(myArray,0, myArray.length-1);
         }
         System.out.println();
         System.out.print("Print list to screen (y/n)? ");
@@ -133,11 +136,13 @@ public class SortStep
    *
    * @param  args  The command line arguments (not used)
    */
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) throws InterruptedException {
     SortStep doSorts = new SortStep();
-
     doSorts.sortMenu();
   }
 }
+//TODO it'd be fun to make a variant of my visual sorting animatiion that would sort indeffinitely and just generat
+// a new list when it finishes
+//TODO figure out how to make java play sounds, and then assign different noises (funny meme sounds?) to each variable
+
 

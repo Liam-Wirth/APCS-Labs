@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WorkerAnt()
+comment0.text=\r\n\ Constructs\ a\ <code>WorkerAnt</code>\ critter.\r\n\ It\ is\ originally\ black\ (no\ food)\ and\r\n\ its\ direction\ is\ chosen\ randomly\ from\ the\r\n\ eight\ normal\ cardinal\ directions.\r\n
+comment1.params=ant
+comment1.target=void\ process(WorkerAnt)
+comment1.text=\r\n\ Gives\ current\ food\ and\ queen\ locations\ to\ <code>ant</code>.\r\n\ @param\ ant\ the\ calling\ <code>WorkerAnt</code>\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment10.text=\r\n\ Creates\ a\ string\ that\ describes\ this\ actor.\r\n\ @return\ a\ string\ with\ the\ <code>Actor</code>\ information\r\n\ plus\ the\ current\ amount\ of\ food\ and\ any\ known\r\n\ <code>Food</code>\ and\ <code>QueenAnt</code>\ locations.\r\n
+comment2.params=fQty
+comment2.target=void\ takeFood(int)
+comment2.text=\r\n\ Takes\ <code>fQty</code>\ amount\ of\ food\ from\ the\r\n\ calling\ <code>Food</code>.\r\n\ @param\ fQty\ the\ amount\ of\ food\ to\ take.\r\n
+comment3.params=
+comment3.target=int\ giveFood()
+comment3.text=\r\n\ Gives\ food\ to\ the\ calling\ <code>QueenAnt</code>.\r\n\ @return\ the\ amound\ of\ food\ to\ give.\r\n
+comment4.params=fLoc
+comment4.target=void\ shareFoodLocation(info.gridworld.grid.Location)
+comment4.text=\r\n\ Receives\ the\ <code>fLoc</code>\ food\ location\ from\ a\r\n\ <code>Food</code>\ object.\ \ Saves\ this\ location\ if\r\n\ it\ doesn't\ already\ have\ one.\r\n\ @param\ fLoc\ the\ location\ of\ the\ food.\r\n
+comment5.params=qLoc
+comment5.target=void\ shareQueenLocation(info.gridworld.grid.Location)
+comment5.text=\r\n\ Receives\ the\ <code>qLoc</code>\ queen\ location\ from\ a\r\n\ <code>QueenAnt</code>\ object.\ \ Saves\ this\ location\ if\r\n\ it\ doesn't\ already\ have\ one.\r\n\ @param\ qLoc\ the\ location\ of\ the\ queen.\r\n
+comment6.params=actors
+comment6.target=void\ processActors(java.util.ArrayList)
+comment6.text=\r\n\ Processes\ each\ of\ the\ neighboring\ Ant\ Farm\ actors.\r\n\ Implemented\ to\ get\ food\ from\ <code>Cake\ and\ Cookie</code>\ actors,\r\n\ give\ food\ to\ <code>QueenAnt</code>\ actors,\ and\ to\ share\ locations\r\n\ with\ other\ <code>WorkerAnt</code>\ actors.<br\ />\r\n\ Precondition\:\ All\ objects\ in\ <code>actors</code>\r\n\ are\ contained\ in\ the\ same\ grid\ as\ this\ critter.\r\n\ @param\ actors\ the\ actors\ to\ be\ processed\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getMoveLocations()
+comment7.text=\r\n\ Gets\ the\ possible\ locations\ for\ the\ next\ move.\r\n\ Implemented\ to\ return\ the\ empty\ neighboring\ locations\r\n\ that\ are\ roughly\ in\ the\ direction\ of\ the\ current\ goal\r\n\ (food\ or\ queen).\ \ Calls\ getDesiredDirection\ to\ get\ the\r\n\ direction\ to\ the\ goal.\ \ Then\ it\ considers\ locations\ which\r\n\ are\ in\ that\ direction\ or\ +-\ Location.HALF_RIGHT\ degrees.<br\ />\r\n\ Postcondition\:\ The\ locations\ must\ be\ valid\ in\ the\ grid\r\n\ of\ this\ critter.\r\n\ @return\ a\ list\ of\ possible\ locations\ for\ the\ next\ move\r\n
+comment8.params=loc
+comment8.target=void\ makeMove(info.gridworld.grid.Location)
+comment8.text=\r\n\ Moves\ this\ critter\ to\ the\ given\ location,\ sets\ its\ direction,\r\n\ and\ sets\ its\ color\ (red\ \=\ has\ food,\ black\ \=\ does\ not\ have\ food).\r\n\ Implemented\ to\ call\ moveTo.<br\ />\r\n\ Precondition\:\ <code>loc</code>\ is\ valid\ in\ the\ grid\ of\ this\ critter\r\n\ @param\ loc\ the\ location\ to\ move\ to\ (must\ be\ valid)\r\n
+comment9.params=
+comment9.target=int\ getDesiredDirection()
+comment9.text=\r\n\ Returns\ the\ direction\ that\ the\ ant\ wants\ to\ go.\r\n\ @return\ the\ direction\ to\ the\ queen\ (if\ there\ is\ food\r\n\ and\ a\ queen's\ location\ is\ known);\ the\ direction\ to\ the\r\n\ food\ (if\ there\ is\ no\ food\ and\ a\ food's\ location\ is\ known);\r\n\ the\ current\ ant's\ direction\ otherwise.\r\n
+numComments=11

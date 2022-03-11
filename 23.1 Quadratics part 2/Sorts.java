@@ -130,57 +130,62 @@ public class Sorts
    */
  void merge(int a[], int first, int mid, int last)
  {
-     int i, j, k;
+     System.out.println("First: " + first + " Mid " + mid + " Last " +last);
+     boolean cheatyWay = true;
+     int index1, index2, numsAdded;
      int n1 = mid - first + 1;
      int n2 = last - mid;
      steps+=6;
      steps+=2;
-     int LeftArray[] = new int[n1];
-     int RightArray[] = new int[n2];
+     int[] LeftArray = new int[n1];
+     int[] RightArray = new int[n2];
      steps+=6;
-     for (i = 0; i < n1; i++) {
-         LeftArray[i] = a[first + i];
+     for (index1 = 0; index1 < n1; index1++) {
+         LeftArray[index1] = a[first + index1];
          steps++;
      }
-     for (j = 0; j < n2; j++) {
-         RightArray[j] = a[mid + 1 + j];
+     for (index2 = 0; index2 < n2; index2++) {
+         RightArray[index2] = a[mid + 1 + index2];
          steps++;
      }
 
-     i = 0; /* initial index of first sub-array */
-     j = 0; /* initial index of second sub-array */
-     k = first;  /* initial index of merged sub-array */
+     index1 = 0; /* initial index of first sub-array */
+     index2 = 0; /* initial index of second sub-array */
+     numsAdded = first;  /* initial index of merged sub-array */
      steps+=3;
      steps+=4;
-     while (i < n1 && j < n2)
+
+     while (index1 < n1 && index2 < n2)
      {
          steps++;
-         if(LeftArray[i] <= RightArray[j])
+         if(LeftArray[index1] <= RightArray[index2])
          {
              steps+=2;
-             a[k] = LeftArray[i];
-             i++;
+             a[numsAdded] = LeftArray[index1];
+             index1++;
          }
          else
          {   steps+=2;
-             a[k] = RightArray[j];
-             j++;
+             a[numsAdded] = RightArray[index2];
+             index2++;
          }
-         k++;
+         numsAdded++;
          steps++;
      }
-     while (i<n1)
-     {
-         a[k] = LeftArray[i];
-         i++;
-         k++;
-     }
+     if(cheatyWay) {
+         while (index1 < n1) {
+             a[numsAdded] = LeftArray[index1];
+             index1++;
+             numsAdded++;
+         }
 
-     while (j<n2)
-     {
-         a[k] = RightArray[j];
-         j++;
-         k++;
+         while (index2 < n2) {
+             a[numsAdded] = RightArray[index2];
+             index2++;
+             numsAdded++;
+         }
+     }else{
+
      }
  }
 
@@ -193,7 +198,7 @@ public class Sorts
    */
   public void mergeSort(int[] a, int first, int last)
   {
-      viSort(a);
+      //viSort(a);
       if (first < last) {
           int m = (first+last)/2;
           mergeSort(a, first, m);
@@ -216,7 +221,7 @@ public int pivot(int[] a, int first, int last){
     int t  = a[i+1];
     a[i+1] = a[last];
     a[last]= t;
-    viSort(a);
+    //viSort(a);
     return(i+1);
 }
   /**
@@ -313,15 +318,16 @@ public int pivot(int[] a, int first, int last){
         }
         System.out.print("\r\n");
     }
+    System.out.println("____________________________________");
     try {
-        Thread.sleep(1000);
+        Thread.sleep(200);
     } catch (InterruptedException e) {
         e.printStackTrace();
     }
 
-    for (int l = 0; l < 500; l++) {
-        System.out.println();
-    }
+    //for (int l = 0; l < 500; l++) {
+    //    System.out.println();
+    //}
     System.out.println();
     System.out.flush();
 

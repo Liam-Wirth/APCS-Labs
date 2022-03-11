@@ -198,7 +198,7 @@ public class Sorts
    */
   public void mergeSort(int[] a, int first, int last)
   {
-      viSort(a);
+      //viSort(a);
       if (first < last) {
           int m = (first+last)/2;
           mergeSort(a, first, m);
@@ -221,7 +221,7 @@ public int pivot(int[] a, int first, int last){
     int t  = a[i+1];
     a[i+1] = a[last];
     a[last]= t;
-    viSort(a);
+    //viSort(a);
     return(i+1);
 }
   /**

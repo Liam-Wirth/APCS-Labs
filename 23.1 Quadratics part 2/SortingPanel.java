@@ -23,12 +23,6 @@ public class SortingPanel extends JPanel implements Runnable{
         this.name = name;
         this.sleepTime = sleepTime;
         setBackground(Color.BLACK);
-
-        prefferedDimension = new Dimension(size,size);
-        this.name = name;
-        this.sleepTime = sleepTime;
-        setBackground(Color.BLACK);
-
     }
     public void setList(int[] list){
         this.size = list.length;
@@ -49,7 +43,6 @@ public class SortingPanel extends JPanel implements Runnable{
         //title da window
         Font nameFont = new Font(Font.MONOSPACED, Font.BOLD, 18);
         FontMetrics nameFontMetrix = getFontMetrics(nameFont);
-        g.setColor(Color.BLACK);
         g.fillRect((getWidth()-nameFontMetrix.stringWidth(name)) / 2, 0,nameFontMetrix.stringWidth(name), BORDER_WIDTH + nameFontMetrix.getAscent() / 3);
         g.setColor(Color.WHITE);
         g.setFont(nameFont);

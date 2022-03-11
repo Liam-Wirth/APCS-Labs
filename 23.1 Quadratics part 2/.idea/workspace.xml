@@ -4,37 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309f6fa6-e014-44b5-a068-385565f21688" name="Changes" comment="unfinished">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/apcslib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/chnutil.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="309f6fa6-e014-44b5-a068-385565f21688" name="Changes" comment="fucky wucky">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/23.1 Quadratics part 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/libraries/apcslib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/libraries/chnutil.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/23.1 Quadratics part 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/SortStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/SortingPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/23.1 Quadratics part 2/Sorts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/SortStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23.1 Quadratics/SortStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/SortingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23.1 Quadratics/SortingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/Sorts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23.1 Quadratics/Sorts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/bubbleSortPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/conk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/conk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/out/production/cum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23.1 Quadratics/out/production/cum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../23.1 Quadratics/out/production/cum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../23.1 Quadratics/out/production/cum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +60,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../libs/jcurses.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -120,8 +91,9 @@
       </method>
     </configuration>
     <configuration name="SortingPanelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingPanelMain" />
-      <module name="23.1 Quadratics part 2" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SortingPanelMain.java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646960246812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fucky wucky">
+      <created>1646968715687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646968715687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i love sorting algorithms" />
     <MESSAGE value="unfinished" />
-    <option name="LAST_COMMIT_MESSAGE" value="unfinished" />
+    <MESSAGE value="fucky wucky" />
+    <option name="LAST_COMMIT_MESSAGE" value="fucky wucky" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

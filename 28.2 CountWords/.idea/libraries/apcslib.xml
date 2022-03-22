@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="apcslib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libs/apcslib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/chnutil.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/gridworld.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/jcurses.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

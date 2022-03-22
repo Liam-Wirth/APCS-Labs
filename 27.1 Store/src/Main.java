@@ -14,6 +14,7 @@ public class Main {
         System.out.println();
         miniMart.displayStore();//displays the sorted list
         // test of methods from LA28.1 - searching the database
+        miniMart.testSearch();
     }
 
 }

@@ -1,10 +1,5 @@
 
 /**
- * Description- Sorts many items of a store's inventory by item Id.
- * Purpose-To learn the application of quicksort
- *
- * @author Dhruv T
- * @version L.A.27.1 - Store
  */
 import chn.util.*;//Imports FileInput,FileOutput
 import apcslib.*;

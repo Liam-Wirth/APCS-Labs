@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="libs">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../../libs" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../libs" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../libs/GridWorldCode/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../libs/GridWorldCode/framework" />
+      <root url="file://$PROJECT_DIR$/../../libs/GridWorldCode/projects/boxBug" />
+      <root url="file://$PROJECT_DIR$/../../libs/GridWorldCode/projects/critters" />
+      <root url="file://$PROJECT_DIR$/../../libs/GridWorldCode/projects/firstProject" />
+      <root url="file://$PROJECT_DIR$/../../libs/JCurses/src" />
+      <root url="file://$PROJECT_DIR$/../../libs/gridworld/gridworld/actor" />
+      <root url="file://$PROJECT_DIR$/../../libs/gridworld/gridworld/project" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../libs" recursive="false" />
+  </library>
+</component>

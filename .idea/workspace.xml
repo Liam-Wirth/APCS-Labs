@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd0c09e-c913-40a5-8cd6-4408ed225889" name="Changes" comment="pretty sure I'm adding da shit for labs 27, 28.1 28.2 and 17.1" />
+    <list default="true" id="0bd0c09e-c913-40a5-8cd6-4408ed225889" name="Changes" comment="I actually forgor to add GridWorldCode itself lmao">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,14 +97,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643002023065</updated>
     </task>
-    <task id="LOCAL-00004" summary="pretty sure I'm adding da shit for labs 27, 28.1 28.2 and 17.1">
-      <created>1647925361859</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1647925361859</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +114,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added a .gitignore for the /GridWorld/ directory because I am no longer working within that directory, and am now doing Unit6/the general gridworld stuff within /GridWorldCode/" />
     <MESSAGE value="I actually forgor to add GridWorldCode itself lmao" />
-    <MESSAGE value="pretty sure I'm adding da shit for labs 27, 28.1 28.2 and 17.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="pretty sure I'm adding da shit for labs 27, 28.1 28.2 and 17.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="I actually forgor to add GridWorldCode itself lmao" />
   </component>
 </project>

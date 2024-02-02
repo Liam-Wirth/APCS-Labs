@@ -1,7 +1,0 @@
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\AntFarmRunner.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\Cake.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\Cookie.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\Food.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\Processable.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\QueenAnt.java"
-"F:\\distance learning\\GridWorld\\GWAntFarm\\AntFarm Student\\WorkerAnt.java"

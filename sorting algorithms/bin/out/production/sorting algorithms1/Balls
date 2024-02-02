@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="apcslib">
+    <archive path="D:/APCS/libs/apcslib.jar" />
+    <archive path="D:/APCS/libs/apcslib" />
+  </library>
+  <library name="gridworld">
+    <archive path="D:/APCS/libs/gridworld" />
+  </library>
+  <library name="jcurses">
+    <archive path="D:/APCS/libs/jcurses.jar" />
+  </library>
+</eclipse-userlibraries>
+
